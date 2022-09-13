@@ -19,7 +19,7 @@ services:
     networks: 
       - rmoff_kafka
     ports:
-      - "9092:9092"
+      - "19092:19092"
     depends_on:
       - zookeeper
     environment:

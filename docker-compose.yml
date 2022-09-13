@@ -15,7 +15,6 @@ services:
     restart: on-failure
     ports:
       - 19092:19092
-      - 9092:9092
    
     environment:
       KAFKA_BROKER_ID: 1
